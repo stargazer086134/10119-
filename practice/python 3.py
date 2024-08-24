@@ -32,3 +32,7 @@ print(f)
 print(len(a))
 print(len(b))
 print(len(b[0]))
+
+text = "경신고등학교"
+
+print(text[4])
