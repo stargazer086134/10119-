@@ -27,3 +27,10 @@ print("a>=c", a>=c)
 print("a<c", a<c)
 print("a<=c", a<=c)
 
+print(a+b)
+print(a-b)
+print(a*b) #곱하기
+print(a/b) #나누기
+print(a%b) #나머지
+print(a//b) #몫
+print(a**b) #제곱
