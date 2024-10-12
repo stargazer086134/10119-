@@ -14,5 +14,7 @@ elif size >= 70:
 else:
     print("하 반")
 
-if size > 100:
+if size > 100 or size < 0:
     print("잘못된 정보입니다")
+
+
