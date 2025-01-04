@@ -53,6 +53,12 @@ for i in range(0,10):
     alphabet.append(chr(random.randrange(65,91)))
 
 for alpha in alphabet:
-print(alpha)
-while user_input != alpha:
-user_input = input("")
+    print(alpha)
+    while user_input != alpha:
+        user_input = input("")
+
+#File > Project From Version Control >
+# URL에 본인 git repository 입력 >
+# Directory 옆의 폴더모양 클릭 >
+# PycharmProjects 선택한 채로 상단의 폴더 추가 아이콘(New Directory) 눌러서 오늘 날짜의 폴더 생성 >
+# 오늘 날짜 Directory 선택 후 OK > Clone
