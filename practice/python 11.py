@@ -42,8 +42,17 @@ for i in range(0,10):
 # 사용자 입력 : Z  <- 넘어가지 않음
 # 사용자 입력 : Q <- 다음문제인 W가 출력됨
 
+print(chr(65))
+print(chr(90))
+
+print("####################")
 import random
 alphabet = []
 
 for i in range(0,10):
     alphabet.append(chr(random.randrange(65,91)))
+
+for alpha in alphabet:
+print(alpha)
+while user_input != alpha:
+user_input = input("")
