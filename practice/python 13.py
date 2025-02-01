@@ -73,7 +73,13 @@ while True:
         elif user_input == 3:
             extract_drink()
         elif user_input == 4:
-            delete_drink()
+            change_price()
+            print("어떤 음료를 고르시겠습니까?")
+            if user_input == 'coke':
+                print("가격을 얼마나 변동시키시겠습니까?")
+                price
+
+
         elif user_input == 5:
             switch_mode()
 
@@ -81,4 +87,4 @@ while True:
         print_menu()
         user_input = input("메뉴를 선택하세요")
     
-   
+
